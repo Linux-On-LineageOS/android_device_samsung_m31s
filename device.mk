@@ -45,3 +45,4 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
      $(DEVICE_PATH)/configs/keylayout/uinput-sec-fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-sec-fp.kl
+$(call inherit-product, vendor/lindroid/lindroid.mk)
